@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fa;
+  color: #14171a;
+  padding: 20px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#userAddress {
+  text-transform: uppercase;
+  color: #1da1f2;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border-left-color: #09f;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #1da1f2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#connectWalletBtn {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  font-size: large;
+  border: 1.5px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#userAddress {
+  margin: 30px 0;
+  margin-top: 40px;
+  font-size: 14px;
+  color: black;
+  font-size: medium;
+}
+.section{
+  width: 420px;
+  background: rgb(148, 212, 238,0.3);
+  border: 2px solid black;
+  backdrop-filter: blur(9px);
+  color: black;
+  border-radius: 12px;
+  padding: 30px 40px;
+  overflow: hidden;
+}
+.label{
+  margin-right: 20px;
+  font-weight: bold;
+}
+.input-box{
+  position: relative;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px black;
+  margin: 20px 0;
+  font-size: medium;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.btn1{
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  font-size: large;
+  border: 1.5px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+
+
+.btn1:hover{
+  background-color: skyblue;
+}
+
+.btn2{
+  background-color: #ee1515;
+  color: black;
+  border: none;
+  font-size: large;
+  border: 1.5px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.btn2:hover{
+  background-color: #e4141480;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+#connectMessage {
+  display: none;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #65676b;
+}
+
+
+
+.btn{
+  background-color: #1da1f2;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: rgb(148, 212, 238,0.5);
+  color: #1da1f2;
+  padding: 10px 0;
+  display: flex;
+  border-radius: 10px;
+}
+.title{
+  margin-left: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: black;
+}
+.container {
+  width: 800px;
+  height: 30px;
+  margin: 0 auto;
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+.menu {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  
+}
+
+.menu li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.menu li a {
+  color:  #1da1f2;
+  text-decoration: none;
+  color: black;
+}
+
+.menu li a:hover {
+  text-decoration: underline 2px solid skyblue;
+  
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.upload{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+
+.success{
+  color: #1da1f2;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: larger;
+  font-weight: bolder;
+
+}
+
+.files{
+  border: 1px solid #1da1f2;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+.share{
+  margin-left: 80px;
+}
